@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" type="text/css" href="contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h2 class="logo">Namitsai Vaddempudi</h2>
+        <h1 class="logo">Personal Portfolio Website</h1>
+        <nav>
+            <ul>
+                <li><b><a href="index.html" class="nav-link">Home</a></b></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="login-container" id="login-container">
+        <div class="login-box">
+            <h1 >Contact Form</h1>
+            <form action="contact.php"  method="POST">
+                <div class="form-group">
+                    <label for="email" >Email Id:</label>
+                    <input id="name" type="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input id="name" type="tel" name="phone" pattern="[0-9]{10}" title="Ten digits are required for phone number" required>
+                </div>                
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input id="name" type="text" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:(Format:- @Namit+last two digit of your phone number)</label>
+                    <input id="password" type="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Password must contain at least one number, one uppercase letter, one lowercase letter, and be at least 8 characters long, and atleast one special character" class="password-input" required>
+                </div>
+                <button id="login" type="submit"><b>Submit</b>
+                </button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

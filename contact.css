@@ -1,0 +1,160 @@
+/* CSS for styling */
+body {
+    font-family: 'Open Sans', sans-serif; /* Specify the Google Font */
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    /* background-color: white; */
+    background-image: url(https://img.freepik.com/free-vector/flat-abstract-background_23-2149123691.jpg?t=st=1712070769~exp=1712074369~hmac=32a15eae1bc0999ea782dde650e8677f3c337657f6ff081484f975365aa47ef0&w=900);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(51, 51, 51, 0.6); /* Semi-transparent dark background */
+    color: #fff;
+    padding: 8px 8px;
+    backdrop-filter: blur(2px); /* Adding a blur effect */
+}
+
+nav {
+    padding: 10px;
+    text-align: center;
+}
+
+.logo {
+    margin: 0;
+    padding: 10px;
+    
+}
+
+.lono{
+    background-image:url("Cart_Wave_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 140px;
+    margin-bottom: 5px; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: rgba(255, 255, 255, 0.8); /* White text color */
+    text-decoration: none;
+    padding: 5px 10px;
+    position: relative; /* Ensure proper positioning of the underline */
+}
+
+nav ul li a:hover {
+    color: rgba(214, 237, 214, 1); /* Light green text color on hover */
+}
+
+nav ul li a:hover::after {
+    content: ''; /* Create the underline */
+    position: absolute; /* Position the underline */
+    left: 0; /* Align the underline with the link */
+    bottom: -2px; /* Position the underline below the text */
+    width: 100%; /* Make the underline span the full width of the link */
+    height: 2px; /* Set the height of the underline */
+    background-color: rgba(214, 237, 214, 1); /* Light green color of the underline */
+}
+
+.content {
+    padding: 20px;
+}
+
+.login-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 20px;
+}
+
+.login-box {
+    padding: 55px;
+    /* border: 2px solid rgba(255, 255, 255, 0.2); */
+    border-radius: 10px;
+    /* background-color: rgba(165, 153, 153, 0.2);  */
+    backdrop-filter: blur(1px);
+}
+
+.form-group {
+    margin-bottom: 20px;
+    color: black;
+}
+
+label {
+    color: rgba(6, 4, 4, 0.8); /* White text color */
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    border: 4px solid rgba(224, 155, 155, 0.5); /* Transparent border */
+    border-radius: 30px; /* Rounded corners */
+    background-color: rgba(192, 86, 86, 0.1); /* Semi-transparent white background */
+    color: #140101;
+}
+
+
+button[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(214, 237, 214, 1); /* Light green background color */
+    color: #000;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: center;
+    margin-top: 20px;
+    margin-left: 7px;
+}
+
+button[type="submit"]:hover {
+    background-color: rgba(173, 215, 173, 1); /* Darker green background color on hover */
+    /* Remove changes in padding and width */
+}
+
+
+#name {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Transparent border */
+    border-radius: 30px; /* Rounded corners */
+    background-color: rgba(192, 86, 86, 0.1); /* Semi-transparent white background */
+    color: #140101;
+}
+
+#login{
+    border-radius: 20px;
+    
+}
+
+.login-box{
+    margin: 50px;
+    border-radius: 20px;
+    background-color:rgb(255, 255, 255,0.75);
+}
+
+.namit
+{
+    color: white;
+    text-align: center;
+}
+
+
