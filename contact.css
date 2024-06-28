@@ -131,7 +131,7 @@ button[type="submit"]:hover {
 }
 
 
-#name {
+.username {
     width: 100%;
     padding: 8px;
     border: 1px solid rgba(255, 255, 255, 0.5); /* Transparent border */

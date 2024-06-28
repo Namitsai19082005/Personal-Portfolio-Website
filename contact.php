@@ -34,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
     {
         $stmt->close();
         $conn->close();
-        echo "<script>alert('Thanks for filling the form'); window.location.href = 'message.html';</script>";
+        echo "<script>alert('Submitted Successfully'); window.location.href = 'message.html';</script>";
     } else
     {
         echo "Error: " . $sql . "<br>" . $conn->error;
