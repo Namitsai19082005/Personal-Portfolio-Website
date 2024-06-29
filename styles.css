@@ -102,15 +102,12 @@ a
 }
 
 
-
 .section-container
 {
     gap: 4rem;
     height: 80%;
     display: flex;
 }
-
-
 
 
 section
@@ -121,7 +118,6 @@ section
     box-sizing: border-box;
     min-height: fit-content;
 }
-
 
 
 .section-pic-container
@@ -270,6 +266,7 @@ p
     gap: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
+    height: fit-content;
 }
 
 .details-container
@@ -329,7 +326,7 @@ h3
     margin-top: 7rem;
     background-color:darkgray;
     border-radius: 2rem;
-    height:fit-content;
+    height: 1050px;
 }
 
 .experience-details-container
@@ -337,6 +334,11 @@ h3
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+.skills-container
+{
+    height: 800px;
 }
 
 .experience-sub-title
@@ -347,10 +349,7 @@ h3
     margin-bottom: 2rem;
 }
 
-.skills-container
-{
-    height: 100vh;
-}
+
 
 .article-container
 {
@@ -418,7 +417,7 @@ article .icon
     border-radius: 2rem;
     width: 90%;
     height: 100%;
-    margin-top: 6rem;
+    margin-top: 2.8rem;
 }
 
 

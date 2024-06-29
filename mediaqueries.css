@@ -7,7 +7,7 @@
     
     #hamburger-nav
     {
-        width: 50vh;
+        width: 60vh;
     }
 
     .nav-links 
@@ -16,25 +16,26 @@
         gap: 0.5rem;
         text-align: center;
     }
-    
-    #profile 
-    {
-        height: 85vh;
-        margin-bottom: 0;
-    }
-    
+        
     .section-pic-container
     {
         width: auto;
         height: 46vw;
         justify-content: center;
     }
+
+    #profile
+    {
+        padding-bottom: 45rem;
+    }
+
     
     .title 
     {
         font-size: 2rem;
         margin-bottom: 10px;
     }
+
 
     .section-text-p2 
     {
@@ -66,9 +67,15 @@
         font-size: 1rem;
     }
 
+    #about
+    {
+        margin-top: 12rem;
+    }
+
+
     .skills-container
     {
-        height: 83vh;
+        height: 750px;
     }
 
     #contact 
@@ -77,7 +84,12 @@
         padding: 0 5%;
         margin: 0;
     }
-    
+
+    #projects
+    {
+        margin-top: 8rem;
+    }
+
     .contact-info-upper-container
     {
         flex-wrap: wrap;
@@ -112,17 +124,20 @@
     {
         margin-bottom: 5px;
     }
-    
+
+    #experience
+    {
+        height: 1800px;
+        margin-top: 10rem;
+    }
+
+
     .experience-details-container 
     {
         flex-direction: column; 
         padding-bottom: 20px;
     }
-
-    #experience
-    {
-        height: fit-content;
-    }
+    
     
     .details-container
     {
