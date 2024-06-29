@@ -329,6 +329,7 @@ h3
     margin-top: 7rem;
     background-color:darkgray;
     border-radius: 2rem;
+    height:fit-content;
 }
 
 .experience-details-container
@@ -344,6 +345,11 @@ h3
     font-weight: 600;
     font-size: 1.75rem;
     margin-bottom: 2rem;
+}
+
+.skills-container
+{
+    height: 100vh;
 }
 
 .article-container
